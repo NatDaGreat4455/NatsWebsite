@@ -61,6 +61,15 @@ font-size:205%;
 h1 {
 font-size:840%
 }
+a:link {
+color: green;
+}
+a:visited {
+color: darkgreen;
+}
+a:hover {
+color: red
+}
 }
 
 @media screen and (max-width:1290px) {
@@ -72,6 +81,15 @@ font-size:200%;
 }
 h1 {
 font-size:820%
+}
+a:link {
+color: lightblue;
+}
+a:visited {
+color: cyan;
+}
+a:hover {
+color: red
 }
 }
 
@@ -308,7 +326,7 @@ font-size:330%
 
 @media screen and (max-width:510px) {
 body{
-background-color: red;
+background-color: tan;
 }
 a {
 font-size:74%;
