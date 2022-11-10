@@ -308,7 +308,7 @@ font-size:330%
 
 @media screen and (max-width:510px) {
 body{
-background-color: tan;
+background-color: red;
 }
 a {
 font-size:74%;
