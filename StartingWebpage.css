@@ -61,6 +61,9 @@ font-size:840%
 }
 
 @media screen and (max-width:1290px) {
+body {
+background-color: orange; 
+}
 a {
 font-size:200%;
 }
@@ -70,7 +73,9 @@ font-size:820%
 }
 
 @media screen and (max-width:1260px) {
-
+body {
+background-color: orange; 
+}
 a {
 font-size:195%;
 }
