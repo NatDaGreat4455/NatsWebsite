@@ -1,0 +1,125 @@
+body {
+
+color: green;
+font-size: 25px;
+font-family: verdana, arial, Geneva, Arial Black;
+font-weight: normal;
+background-color: #ffcf79;
+
+}
+
+h1 {
+
+color: green;
+text-decoration: underline;
+font-size: 150%;
+text-align: center;
+
+}
+
+h2 {
+
+color: green;
+text-decoration: underline;
+font-size: 1.2em;
+text-align: center;
+
+}
+
+h3 {
+
+color: green;
+text-decoration: underline;
+
+}
+
+#para1homepage {
+color: blue;
+
+}
+
+p.paragraph{
+
+color: black;
+font-size: 15px;
+line-height: 1.5em;
+background-color: #e5e4d7;
+padding: 20px;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+background-image: url("waterrr.jpg");
+border-radius: 20px;
+
+}
+
+#para4homepage {
+
+color: black;
+font-size: 15px;
+line-height: 1.5em;
+background-color: #e5e4d7;
+padding: 20px;
+border-color: #296A64;
+border-width: 10px;
+border-style: ridge;
+margin: 20px;
+margin-top: 50px;
+margin-left: 400px;
+
+}
+
+.imagec {
+
+display: block; 
+margin-left: auto;
+margin-right: auto;
+padding: 3px;
+background-color: silver;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+
+}
+
+#divmain {
+
+color: black;
+
+}
+
+#divbass {
+
+color: black;
+
+}
+
+.divcontent {
+
+color: black;
+
+}
+
+.highlight{
+
+background-color: #8F00FF
+
+}
+
+a:link {
+
+color: blue
+
+}
+
+a:visited {
+
+color: #ffcf79;
+
+}
+
+a:hover {
+
+color: #f15a51
+
+}

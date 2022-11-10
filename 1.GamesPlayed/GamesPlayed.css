@@ -1,0 +1,137 @@
+body {
+background-color: tan;
+}
+
+h1 {
+text-decoration: underline;
+font-size: 300%;
+text-align: center
+}
+
+h2 {
+text-decoration: underline;
+font-size: 150%;
+}
+
+p {
+text-decoration: underline;
+font-size: 150%;
+}
+
+#undertale {
+float: left;
+font-size: 100% ;
+}
+
+#other {
+float: right;
+font-size: 100%;
+}
+
+#cen {
+text-align: center;
+}
+
+#cent {
+text-align: center;
+}
+
+#right-text {
+float: right;
+text-align: right;
+margin-right: auto;
+}
+
+#left-table {
+float: left;
+margin-left: auto;
+}
+
+#right-table {
+float: right;
+margin-right: auto;
+}
+
+* {
+box-sizing: border-box
+}
+
+.row {
+display: flex;
+margin-left:-5px;
+margin-right:-5px;
+}
+
+.column {
+flex: 50%;
+padding: 5px;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+}
+
+#tabled {
+border: 4px solid black;
+}
+
+#box {
+text-decoration: underline;
+font-size: 130%;
+font-weight: 100%;
+background-color: tan;
+border: none;
+box: none;
+}
+
+th, td {
+text-align: left;
+}
+
+th {
+font-size: 130%;
+}
+
+#color tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#color tr:nth-child(odd) {
+  background-color: white;
+}
+
+img {
+display: block; 
+margin-left: auto;
+margin-right: auto;
+height="10";
+}
+
+.mobile {
+display: none
+}
+
+@media screen and (max-width: 715px) {
+.mobile {
+display: inline-block;
+flex: 100%;
+padding: 5px;
+}
+.desktop {
+display: none;
+}
+}
+
+@media screen and (min-width: 716px) {
+.mobile {
+display: none;
+}
+td {
+font-size: 140%;
+}
+img {
+height: 20px;
+}
+}
