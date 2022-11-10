@@ -52,6 +52,9 @@ color: red
 }
 
 @media screen and (max-width:1320px) {
+body {
+background-color: tan; 
+}
 a {
 font-size:205%;
 }
@@ -73,9 +76,6 @@ font-size:820%
 }
 
 @media screen and (max-width:1260px) {
-body {
-background-color: orange; 
-}
 a {
 font-size:195%;
 }
@@ -121,6 +121,9 @@ font-size:720%
 }
 
 @media screen and (max-width:1110px) {
+body {
+background-color: tan; 
+}
 a {
 font-size:170%;
 }
@@ -130,6 +133,9 @@ font-size:700%
 }
 
 @media screen and (max-width:1080px) {
+body {
+background-color: orange; 
+}
 a {
 font-size:165%;
 }
