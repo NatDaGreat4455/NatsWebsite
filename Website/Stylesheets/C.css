@@ -1,0 +1,612 @@
+#C * {
+ box-sizing: border-box
+}
+#C th, #C td {
+ text-align: left;
+}
+#C img {
+ display: block; 
+ margin-left: auto;
+ margin-right: auto;
+ height="10";
+}
+#C table {
+ border-collapse: collapse;
+ border-spacing: 0;
+ width: 100%;
+}
+#C #undertale {
+ float: left;
+}
+#C #other {
+ float: right;
+}
+#C #cen {
+ text-align: center;
+}
+#C #right-text {
+ float: right;
+ text-align: right;
+ margin-right: auto;
+}
+#C #left-table {
+ float: left;
+ margin-left: auto;
+}
+#C #right-table {
+ float: right;
+ margin-right: auto;
+}
+#C .row {
+ display: flex;
+ margin-left:-5px;
+ margin-right:-5px;
+}
+#C .column {
+ flex: 50%;
+ padding: 5px;
+}
+#C #tabled {
+ border: 4px solid black;
+}
+#C #box {
+ text-decoration: underline;
+ font-weight: 100%;
+ background-color: tan;
+ border: none;
+ box: none;
+}
+#C #color tr:nth-child(even) {
+ background-color: #f2f2f2;
+}
+#C #color tr:nth-child(odd) {
+ background-color: white;
+}
+#C .mobile {
+ display: none
+}
+#C table {
+ margin-left: auto;
+ margin-right: auto;
+ float: center;
+ text-align: center;
+}
+#C iframe {
+ display: flex;
+ flex: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ float: center;
+ width: 100%;
+ height: 240px;
+}
+
+<!-- This starts the slowly expanding text, so it's gonna be a bit compressed -->
+@media screen and (max-width:1600px) {}
+
+@media screen and (min-width:1351px) {
+ #C h1 {
+  font-size: 80px;
+ }
+ #C h2 {
+  font-size: 42px;
+ }
+ #C th {
+  font-size: 27px;
+ }
+ #C td, #C a {
+  font-size: 26px;
+ }
+}
+@media screen and (max-width:1395px) {
+ #C h1 {
+  font-size: 79px;
+ }
+}
+@media screen and (max-width:1380px) {
+ #C h1 {
+  font-size: 78px;
+ }
+ #C h2 {
+  font-size: 41px;
+ }
+}
+@media screen and (max-width:1365px) {
+ #C h1 {
+  font-size: 77px;
+ }
+}
+@media screen and (max-width:1350px) {
+ #C h1 {
+  font-size: 76px;
+ }
+ #C h2 {
+  font-size: 40px;
+ }
+ #C th {
+  font-size: 26px;
+ }
+ #C td, #C a {
+  font-size: 25px;
+ }
+}
+@media screen and (max-width:1335px) {
+ #C h1 {
+  font-size: 75px;
+ }
+}
+@media screen and (max-width:1320px) {
+ #C h1 {
+  font-size: 74px;
+ }
+ #C h2 {
+  font-size: 39px;
+ }
+}
+@media screen and (max-width:1305px) {
+ #C h1 {
+  font-size: 73px;
+ }
+}
+@media screen and (max-width:1290px) {
+ #C h1 {
+  font-size: 72px;
+ }
+ #C h2 {
+  font-size: 38px;
+ }
+ #C th {
+  font-size: 25px;
+ }
+ #C td, #C a {
+  font-size: 24px;
+ }
+}
+@media screen and (max-width:1275px) {
+ #C h1 {
+  font-size: 71px;
+ }
+}
+@media screen and (max-width:1260px) {
+ #C h1 {
+  font-size: 70px;
+ }
+ #C h2 {
+  font-size: 37px;
+ }
+}
+@media screen and (max-width:1245px) {
+ #C h1 {
+  font-size: 69px;
+ }
+}
+@media screen and (max-width:1230px) {
+ #C h1 {
+  font-size: 68px;
+ }
+ #C h2 {
+  font-size: 36px;
+ }
+ #C th {
+  font-size: 24px;
+ }
+ #C td, #C a {
+  font-size: 23px;
+ }
+}
+@media screen and (max-width:1215px) {
+ #C h1 {
+  font-size: 67px;
+ }
+}
+@media screen and (max-width:1200px) {
+ #C h1 {
+  font-size: 66px;
+ }
+ #C h2 {
+  font-size: 35px;
+ }
+}
+@media screen and (max-width:1185px) {
+ #C h1 {
+  font-size: 65px;
+ }
+}
+@media screen and (max-width:1170px) {
+ #C h1 {
+  font-size: 64px;
+ }
+ #C h2 {
+  font-size: 34px;
+ }
+ #C th {
+  font-size: 23px;
+ }
+ #C td, #C a {
+  font-size: 22px;
+ }
+}
+@media screen and (max-width:1155px) {
+ #C h1 {
+  font-size: 63px;
+ }
+}
+@media screen and (max-width:1140px) {
+ #C h1 {
+  font-size: 62px;
+ }
+ #C h2 {
+  font-size: 33px;
+ }
+}
+@media screen and (max-width:1125px) {
+ #C h1 {
+  font-size: 61px;
+ }
+}
+@media screen and (max-width:1110px) {
+ #C h1 {
+  font-size: 60px;
+ }
+ #C h2 {
+  font-size: 32px;
+ }
+ #C th {
+  font-size: 21px;
+ }
+ #C td, #C a {
+  font-size: 20px;
+ }
+}
+@media screen and (max-width:1095px) {
+ #C h1 {
+  font-size: 59px;
+ }
+}
+@media screen and (max-width:1080px) {
+ #C h1 {
+  font-size: 58px;
+ }
+ #C h2 {
+  font-size: 31px:
+ }
+}
+@media screen and (max-width:1065px) {
+ #C h1 {
+  font-size: 57px;
+ }
+}
+@media screen and (max-width:1050px) {
+ #C h1 {
+  font-size: 56px;
+ }
+ #C h2 {
+  font-size: 30px;
+ }
+ #C th {
+  font-size: 20px;
+ }
+ #C td, #C a {
+  font-size: 19px;
+ }
+}
+@media screen and (max-width:1035px) {
+ #C h1 {
+  font-size: 55px;
+ }
+}
+@media screen and (max-width:1020px) {
+ #C h1 {
+  font-size: 54px;
+ }
+ #C h2 {
+  font-size: 29px;
+ }
+}
+@media screen and (max-width:1005px) {
+ #C h1 {
+  font-size: 53px;
+ }
+}
+@media screen and (max-width:990px) {
+ #C h1 {
+  font-size: 52px;
+ }
+ #C h2 {
+  font-size: 28px;
+ }
+ #C th {
+  font-size: 19px;
+ }
+ #C td, #C a {
+  font-size: 18px;
+ }
+}
+@media screen and (max-width:975px) {
+ #C h1 {
+  font-size: 51px;
+ }
+}
+@media screen and (max-width:960px) {
+ #C h1 {
+  font-size: 50px;
+ }
+ #C h2 {
+  font-size: 27px;
+ }
+}
+@media screen and (max-width:945px) {
+ #C h1 {
+  font-size: 49px;
+ }
+}
+@media screen and (max-width:930px) {
+ #C h1 {
+  font-size: 48px;
+ }
+ #C h2 {
+  font-size: 26px;
+ }
+ #C th {
+  font-size: 18px;
+ }
+ #C td, #C a {
+  font-size: 17px;
+ }
+}
+@media screen and (max-width:915px) {
+ #C h1 {
+  font-size: 47px;
+ }
+}
+@media screen and (max-width:900px) {
+ #C h1 {
+  font-size: 46px;
+ }
+ #C h2 {
+  font-size: 25px;
+ }
+}
+@media screen and (max-width:885px) {
+ #C h1 {
+  font-size: 45px;
+ }
+}
+@media screen and (max-width:870px) {
+ #C h1 {
+  font-size: 44px;
+ }
+ #C h2 {
+  font-size: 24px;
+ }
+ #C th {
+  font-size: 17px;
+ }
+ #C td, #C a {
+  font-size: 16px;
+ }
+}
+@media screen and (max-width:855px) {
+ #C h1 {
+  font-size: 43px;
+ }
+}
+@media screen and (max-width:840px) {
+ #C h1 {
+  font-size: 42px;
+ }
+ #C h2 {
+  font-size: 23px;
+ }
+}
+@media screen and (max-width:825px) {
+ #C h1 {
+  font-size: 41px;
+ }
+}
+@media screen and (max-width:810px) {
+ #C h1 {
+  font-size: 40px;
+ }
+ #C h2 {
+  font-size: 22px;
+ }
+ #C th {
+  font-size: 16px;
+ }
+ #C td, #C a {
+  font-size: 15px;
+ }
+}
+@media screen and (max-width:795px) {
+ #C h1 {
+  font-size: 39px;
+ }
+}
+@media screen and (max-width:780px) {
+ #C h1 {
+  font-size: 38px;
+ }
+ #C h2 {
+  font-size: 21px;
+ }
+}
+@media screen and (max-width:765px) {
+ #C h1 {
+  font-size: 37px;
+ }
+}
+@media screen and (max-width:750px) {
+ #C h1 {
+  font-size: 36px;
+ }
+ #C h2 {
+  font-size: 20px;
+ }
+ #C th {
+  font-size: 15px;
+ }
+ #C td, #C a {
+  font-size: 14px;
+ }
+}
+@media screen and (max-width:735px) {
+ #C h1 {
+  font-size: 35px;
+ }
+}
+@media screen and (max-width:720px) {
+ #C h1 {
+  font-size: 34px;
+ }
+ #C h2 {
+  font-size: 19px;
+ }
+}
+@media screen and (max-width:705px) {
+ #C h1 {
+  font-size: 33px;
+ }
+}
+@media screen and (max-width:690px) {
+ #C h1 {
+  font-size: 32px;
+ }
+ #C h2 {
+  font-size: 18px;
+ }
+ #C th {
+  font-size: 14px;
+ }
+ #C td, #C a {
+  font-size: 13px;
+ }
+}
+@media screen and (max-width:675px) {
+ #C h1 {
+  font-size: 31px;
+ }
+}
+@media screen and (max-width:660px) {
+ #C h1 {
+  font-size: 30px;
+ }
+ #C h2 {
+  font-size: 17px;
+ }
+}
+@media screen and (max-width:645px) {
+ #C h1 {
+  font-size: 29px;
+ }
+}
+@media screen and (max-width:630px) {
+ #C h1 {
+  font-size: 28px;
+ }
+ #C h2 {
+  font-size: 16px;
+ }
+ #C th {
+  font-size: 13px;
+ }
+ #C td, #C a {
+  font-size: 12px;
+ }
+}
+@media screen and (max-width:615px) {
+ #C h1 {
+  font-size: 27px;
+ }
+}
+@media screen and (max-width:600px) {
+ #C h1 {
+  font-size: 26px;
+ }
+ #C h2 {
+  font-size: 15px;
+ }
+}
+@media screen and (max-width:585px) {
+ #C h1 {
+  font-size: 25px;
+ }
+}
+@media screen and (max-width:570px) {
+ #C h1 {
+  font-size: 24px;
+ }
+ #C h2 {
+  font-size: 14px;
+ }
+ #C th {
+  font-size: 12px;
+ }
+ #C td, #C a {
+  font-size: 11px;
+ }
+}
+@media screen and (max-width:555px) {
+ #C h1 {
+  font-size: 23px;
+ }
+}
+@media screen and (max-width:540px) {
+ #C h1 {
+  font-size: 22px;
+ }
+ #C h2 {
+  font-size: 13px;
+ }
+}
+@media screen and (max-width:525px) {
+ #C h1 {
+  font-size: 21px;
+ }
+}
+@media screen and (max-width:510px) {
+ #C h1 {
+  font-size: 20px;
+ }
+ #C h2 {
+  font-size: 12px;
+ }
+ #C th {
+  font-size: 11px;
+ }
+ #C td, #C a {
+  font-size: 10px;
+ }
+}
+@media screen and (max-width:495px) {
+ #C h1 {
+  font-size: 19px;
+ }
+}
+@media screen and (max-width:480px) {
+ #C h1 {
+  font-size: 18px;
+ }
+ #C h2 {
+  font-size: 11px;
+ }
+}
+@media screen and (max-width:465px) {
+ #C h1 {
+  font-size: 17px;
+ }
+}
+media screen and (max-width:450px) {
+ #C h1 {
+  font-size: 16px;
+ }
+ #C h2 {
+  font-size: 10px;
+ }
+ #C th {
+  font-size: 10px;
+ }
+ #C td, #C a {
+  font-size: 9px;
+ }
+}

@@ -1,0 +1,438 @@
+#B h1, #B h2 {
+ text-align: center; 
+}
+
+<!-- This starts the slowly expanding text, so it's gonna be a bit compressed -->
+@media screen and (max-width:1600px) {}
+
+@media screen and (max-width:1380px) {
+ #B h1 {
+  font-size: 100px
+ }
+ #B h2 {
+  font-size: 50px
+ }
+ #B li {
+  font-size: 25px
+ } 
+}
+@media screen and (max-width:1365px) {
+ #B h1 {
+  font-size: 99px
+ }
+@media screen and (max-width:1350px) {
+ #B h1 {
+  font-size: 98px
+ }
+ #B h2 {
+  font-size: 49px
+ }
+}
+@media screen and (max-width:1335px) {
+ #B h1 {
+  font-size: 97px
+ }
+@media screen and (max-width:1320px) {
+ #B h1 {
+  font-size: 96px
+ }
+ #B h2 {
+  font-size: 48px
+ }
+ #B li {
+  font-size: 24px
+ } 
+}
+@media screen and (max-width:1305px) {
+ #B h1 {
+  font-size: 95px
+ }
+@media screen and (max-width:1290px) {
+ #B h1 {
+  font-size: 94px
+ }
+ #B h2 {
+  font-size: 47px
+ }
+}
+@media screen and (max-width:1275px) {
+ #B h1 {
+  font-size: 93px
+ }
+@media screen and (max-width:1260px) {
+ #B h1 {
+  font-size: 92px
+ }
+ #B h2 {
+  font-size: 46px
+ }
+ #B li {
+  font-size: 23px
+ } 
+}
+@media screen and (max-width:1245px) {
+ #B h1 {
+  font-size: 91px
+ }
+@media screen and (max-width:1230px) {
+ #B h1 {
+  font-size: 90px
+ }
+ #B h2 {
+  font-size: 45px
+ }
+}
+@media screen and (max-width:1215px) {
+ #B h1 {
+  font-size: 89px
+ }
+@media screen and (max-width:1200px) {
+ #B h1 {
+  font-size: 88px
+ }
+ #B h2 {
+  font-size: 44px
+ }
+ #B li {
+  font-size: 22px
+ } 
+}
+@media screen and (max-width:1185px) {
+ #B h1 {
+  font-size: 87px
+ }
+@media screen and (max-width:1170px) {
+ #B h1 {
+  font-size: 86px
+ }
+ #B h2 {
+  font-size: 43px
+ }
+}
+@media screen and (max-width:1155px) {
+ #B h1 {
+  font-size: 85px
+ }
+@media screen and (max-width:1140px) {
+ #B h1 {
+  font-size: 84px
+ }
+ #B h2 {
+  font-size: 42px
+ }
+ #B li {
+  font-size: 21px
+ } 
+}
+@media screen and (max-width:1125px) {
+ #B h1 {
+  font-size: 83px
+ }
+@media screen and (max-width:1110px) {
+ #B h1 {
+  font-size: 82px
+ }
+ #B h2 {
+  font-size: 41px
+ }
+}
+@media screen and (max-width:1095px) {
+ #B h1 {
+  font-size: 81px
+ }
+@media screen and (max-width:1080px) {
+ #B h1 {
+  font-size: 80px
+ }
+ #B h2 {
+  font-size: 40px
+ }
+ #B li {
+  font-size: 20px
+ } 
+}
+@media screen and (max-width:1065px) {
+ #B h1 {
+  font-size: 79px
+ }
+@media screen and (max-width:1050px) {
+ #B h1 {
+  font-size: 78px
+ }
+ #B h2 {
+  font-size: 39px
+ }
+}
+@media screen and (max-width:1035px) {
+ #B h1 {
+  font-size: 77px
+ }
+@media screen and (max-width:1020px) {
+ #B h1 {
+  font-size: 76px
+ }
+ #B h2 {
+  font-size: 38px
+ }
+ #B li {
+  font-size: 19px
+ } 
+}
+@media screen and (max-width:1005px) {
+ #B h1 {
+  font-size: 75px
+ }
+@media screen and (max-width:990px) {
+ #B h1 {
+  font-size: 74px
+ }
+ #B h2 {
+  font-size: 37px
+ }
+}
+@media screen and (max-width:975px) {
+ #B h1 {
+  font-size: 73px
+ }
+@media screen and (max-width:960px) {
+ #B h1 {
+  font-size: 72px
+ }
+ #B h2 {
+  font-size: 36px
+ }
+ #B li {
+  font-size: 18px
+ } 
+}
+@media screen and (max-width:945px) {
+ #B h1 {
+  font-size: 71px
+ }
+@media screen and (max-width:930px) {
+ #B h1 {
+  font-size: 70px
+ }
+ #B h2 {
+  font-size: 35px
+ } 
+}
+@media screen and (max-width:915px) {
+ #B h1 {
+  font-size: 69px
+ }
+@media screen and (max-width:900px) {
+ #B h1 {
+  font-size: 68px
+ }
+ #B h2 {
+  font-size: 34px
+ }
+ #B li {
+  font-size: 17px
+ } 
+}
+@media screen and (max-width:885px) {
+ #B h1 {
+  font-size: 67px
+ }
+@media screen and (max-width:870px) {
+ #B h1 {
+  font-size: 66px
+ }
+ #B h2 {
+  font-size: 33px
+ }
+}
+@media screen and (max-width:855px) {
+ #B h1 {
+  font-size: 65px
+ }
+@media screen and (max-width:840px) {
+ #B h1 {
+  font-size: 64px
+ }
+ #B h2 {
+  font-size: 32px
+ }
+ #B li {
+  font-size: 16px
+ } 
+}
+@media screen and (max-width:825px) {
+ #B h1 {
+  font-size: 63px
+ }
+@media screen and (max-width:810px) {
+ #B h1 {
+  font-size: 62px
+ }
+ #B h2 {
+  font-size: 31px
+ }
+}
+@media screen and (max-width:795px) {
+ #B h1 {
+  font-size: 61px
+ }
+@media screen and (max-width:780px) {
+ #B h1 {
+  font-size: 60px
+ }
+ #B h2 {
+  font-size: 30px
+ }
+ #B li {
+  font-size: 15px
+ } 
+}
+@media screen and (max-width:765px) {
+ #B h1 {
+  font-size: 59px
+ }
+@media screen and (max-width:750px) {
+ #B h1 {
+  font-size: 58px
+ }
+ #B h2 {
+  font-size: 29px
+ }
+}
+@media screen and (max-width:735px) {
+ #B h1 {
+  font-size: 57px
+ }
+@media screen and (max-width:720px) {
+ #B h1 {
+  font-size: 56px
+ }
+ #B h2 {
+  font-size: 28px
+ }
+ #B li {
+  font-size: 14px
+ } 
+}
+@media screen and (max-width:705px) {
+ #B h1 {
+  font-size: 55px
+ }
+@media screen and (max-width:690px) {
+ #B h1 {
+  font-size: 54px
+ }
+ #B h2 {
+  font-size: 27px
+ } 
+}
+@media screen and (max-width:675px) {
+ #B h1 {
+  font-size: 53px
+ }
+@media screen and (max-width:660px) {
+ #B h1 {
+  font-size: 52px
+ }
+ #B h2 {
+  font-size: 26px
+ }
+ #B li {
+  font-size: 13px
+ } 
+}
+@media screen and (max-width:645px) {
+ #B h1 {
+  font-size: 51px
+ }
+@media screen and (max-width:630px) {
+ #B h1 {
+  font-size: 50px
+ }
+ #B h2 {
+  font-size: 25px
+ } 
+}
+@media screen and (max-width:615px) {
+ #B h1 {
+  font-size: 49px
+ }
+@media screen and (max-width:600px) {
+ #B h1 {
+  font-size: 48px
+ }
+ #B h2 {
+  font-size: 24px
+ }
+ #B li {
+  font-size: 12px
+ } 
+}
+@media screen and (max-width:585px) {
+ #B h1 {
+  font-size: 47px
+ }
+@media screen and (max-width:570px) {
+ #B h1 {
+  font-size: 46px
+ }
+ #B h2 {
+  font-size: 23px
+ } 
+}
+@media screen and (max-width:555px) {
+ #B h1 {
+  font-size: 45px
+ }
+@media screen and (max-width:540px) {
+ #B h1 {
+  font-size: 44px
+ }
+ #B h2 {
+  font-size: 22px
+ }
+ #B li {
+  font-size: 11px
+ } 
+}
+@media screen and (max-width:525px) {
+ #B h1 {
+  font-size: 43px
+ }
+@media screen and (max-width:510px) {
+ #B h1 {
+  font-size: 42px
+ }
+ #B h2 {
+  font-size: 21px
+ } 
+}
+@media screen and (max-width:495px) {
+ #B h1 {
+  font-size: 41px
+ }
+@media screen and (max-width:480px) {
+ #B h1 {
+  font-size: 40px
+ }
+ #B h2 {
+  font-size: 20px
+ }
+ #B li {
+  font-size: 10px
+ } 
+}
+@media screen and (max-width:465px) {
+ #B h1 {
+  font-size: 39px
+ }
+media screen and (max-width:450px) {
+ #B h1 {
+  font-size: 38px
+ }
+ #B h2 {
+  font-size: 19px
+ }
+ #B li {
+  font-size: 9px
+ } 
+}
